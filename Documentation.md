@@ -12,7 +12,7 @@ Create comprehensive 3D RC frame building models for structural analysis with:
 - **Model Visualization**: Interactive 3D and 2D visualizations with hover information and beam markers
 - **Model Persistence**: Save complete models for use in analysis applications
 
-## File Structure (1727 lines - Full Version)
+## File Structure
 
 ```
 ├── Module Documentation (Comprehensive docstring)
