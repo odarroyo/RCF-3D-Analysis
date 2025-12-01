@@ -1,4 +1,4 @@
-# app_modelcreator_refactored.py Documentation
+# RCF3D.py Documentation
 
 ## Purpose
 Create comprehensive 3D RC frame building models for structural analysis with:
@@ -279,7 +279,7 @@ The application features 11 comprehensive tabs, each with dedicated rendering fu
 
 ```python
 # Run the application
-streamlit run app_modelcreator_refactored.py
+streamlit run RCF3D.py
 
 # Workflow:
 # 1. Tab 1: Enter coordinates and masses, create model
