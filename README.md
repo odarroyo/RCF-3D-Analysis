@@ -188,10 +188,7 @@ Saved models are compatible with the RCF-3D-Analysis application (`app_analysis_
 
 ## Documentation
 
-For detailed technical documentation, see:
-- `app_modelcreator_refactored_documentation.md` - Complete technical reference
-- `REFACTORED_DOCUMENTATION.md` - Analysis application documentation
-- `INSTALLATION_GUIDE.md` - Setup and troubleshooting
+For detailed technical documentation, see Documentation.md
 
 ## Support
 
@@ -208,8 +205,3 @@ If you use RCF-3D-Analysis Model Creator in your research:
 Arroyo (2025). RCF-3D-Analysis: Parametric Model Creation for 
 Nonlinear Analysis of 3D Reinforced Concrete Frame Buildings.
 ```
-
----
-
-*RCF-3D-Analysis Model Creator - Building models for advanced structural analysis*</content>
-<parameter name="filePath">/Users/odarroyo/Library/CloudStorage/OneDrive-Personal/Z2. Scratch Codigos/3D-RCBuilding/README_modelcreator.md
