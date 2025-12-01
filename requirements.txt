@@ -1,0 +1,8 @@
+streamlit
+openseespy
+matplotlib
+opseestools
+numpy
+pandas
+plotly
+joblib
