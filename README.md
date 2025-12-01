@@ -77,7 +77,7 @@ RCF-3D-Analysis is a comprehensive web-based application for creating  three-dim
 ### Running the Application
 
 ```bash
-streamlit run app_modelcreator_refactored.py
+streamlit run RCF3D.py
 ```
 
 ### Workflow Overview
@@ -163,21 +163,6 @@ The application generates complete building models saved as `.pkl` files contain
 - Slab definitions
 - Analysis-ready OpenSees model
 
-## Integration
-
-Saved models are compatible with the RCF-3D-Analysis application (`app_analysis_refactored.py`) for:
-- Modal analysis
-- Gravity analysis
-- Nonlinear pushover analysis
-- Results visualization
-
-## Tips and Best Practices
-
-1. **Start Small**: Begin with simple 2-3 story buildings
-2. **Verify Visually**: Always check 3D visualizations before saving
-3. **Save Incrementally**: Export models after major changes
-4. **Use Consistent Units**: All dimensions in meters, forces in kN
-5. **Check Assignments**: Verify section assignments in visualization tab
 
 ## Limitations
 
