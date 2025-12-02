@@ -316,7 +316,7 @@ def load_and_create_model(pkl_file_path):
     # =========================================================================
     # STEP 5: Create slabs (if they exist in the model)
     # =========================================================================
-    if model_data.get('slabs_created', False):
+    if model_data.get('slabs_created', False) and not model_data.get('slabs_skipped', False):
         print("\n[5/6] Creating slabs...")
         
         hslab = model_data.get('hslab')
@@ -324,16 +324,22 @@ def load_and_create_model(pkl_file_path):
         Eslab = model_data.get('Eslab')
         pois = model_data.get('pois')
         
-        ut.create_slabs(
-            coordx,
-            coordy,
-            coordz,
-            hslab,
-            Eslab,
-            pois
-        )
-        
-        print(f"✓ Slabs created (h={hslab} cm, E={Eslab} kPa, ν={pois})")
+        # Check if all required slab properties are present and valid
+        if hslab is not None and Eslab is not None and pois is not None:
+            ut.create_slabs(
+                coordx,
+                coordy,
+                coordz,
+                hslab,
+                Eslab,
+                pois
+            )
+            
+            print(f"✓ Slabs created (h={hslab} cm, E={Eslab} kPa, ν={pois})")
+        else:
+            print(f"⚠️ Slab properties incomplete (hslab={hslab}, Eslab={Eslab}, pois={pois}) - skipping slab creation")
+            # Update model_data to reflect that slabs were not actually created
+            model_data['slabs_created'] = False
     else:
         print("\n[5/6] Skipping slabs (not created in original model)")
     
