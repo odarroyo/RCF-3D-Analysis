@@ -11,31 +11,25 @@ A walkthrough of the app functionality is available at: https://youtu.be/VEi5oyE
 - **3D Geometry**: Define building dimensions with customizable X, Y, Z coordinates
 - **Grid-Based Layout**: Rectangular building layouts with variable bay spacing
 - **Multi-Story Buildings**: Support for buildings up to 10+ stories
-- **Flexible Configurations**: Asymmetric layouts and irregular geometries
 
 ### 🧱 Material & Section Design
 - **Material Library**: Pre-defined concrete and steel materials (DES, DMO, PreCode standards)
 - **Custom Materials**: Define new concrete and steel properties
 - **RC Section Builder**: Create rectangular reinforced concrete sections
-- **Reinforcement Configuration**: Detailed longitudinal and transverse reinforcement
+- **Reinforcement Configuration**: Detailed longitudinal reinforcement
 
 ### 🎯 Element Assignment
-- **Interactive Grid Interface**: Visual assignment of sections to structural elements
-- **Column Configuration**: Assign sections to column grid positions
 - **Beam Layout**: Configure beams by floor and direction (X and Y)
 - **Batch Operations**: Copy configurations across multiple floors
 
 ### 👁️ Visualization & Verification
-- **3D Model Preview**: Interactive Plotly visualizations for real-time verification
 - **Plan Views**: 2D floor plans with section assignments
-- **Elevation Views**: Section cuts showing material distribution
 - **Element Details**: Hover tooltips with section and material information
 
 ### 🏠 Structural Components
 - **Rigid Diaphragms**: Define floor slabs as rigid diaphragms
 - **Gravity Loads**: Apply distributed loads to beams
 - **Load Cases**: Separate floor and roof load specifications
-- **Mass Calculation**: Automatic mass matrix generation
 
 ### 🔬 Preliminary Analysis
 - **Modal Analysis**: Eigenvalue analysis for natural frequencies
