@@ -5,6 +5,12 @@
 RCF-3D-Analysis is a comprehensive web-based application for creating  three-dimensional reinforced concrete frame building models. Built with Streamlit and using OpenSeesPy and opseestools as backends, this tool provides an intuitive 11-tab interface for complete building model generation, from geometry definition to load application, with integrated visualization and preliminary analysis capabilities.
 A walkthrough of the app functionality is available at: https://youtu.be/VEi5oyEf1lU 
 
+## Citation
+
+The RCF-3D paper can be downloaded from: https://www.sciencedirect.com/science/article/pii/S2352711026000282
+For citing, please do it as: 
+Arroyo, O. (2026). RCF-3D Analysis: a web-based tool for pushover analysis of regular reinforced concrete frames. SoftwareX, 33, 102534.
+
 ## Features
 
 ### 🏗️ Parametric Model Generation
